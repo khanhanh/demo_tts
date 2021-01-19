@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  
+  ul li {
+    margin: 0;
+    padding: 0; }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-top{
+    z-index: 9999;
+    width: 100%;
+    background-color:white;
+    display: inline;
+    
+}
+
+.header-logo h2{
+    border: 2px solid black;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding: 8px;
+ width: 200px;
+ margin: 0px;
+}
+.header-logo {
+    
+    margin-left: 20px;
+}
+.header-menu li{
+    text-decoration: none;
+   display: inline;
+   margin : 20px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+ 
+}
+.header-menu li a{ 
+color: black; 
+overflow: hidden;
+}
+
+.header{
+    display: inline;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.521);
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+
+.banner .container{
+    padding-left: 260px;
+    padding-right: 300px;
+    padding-top: 75px;
+  
+    }
+
+.row_1{
+    margin: 32px;
+ float: left;
+}
+
+.row_2 img{
+    margin-top: 32px;
+}
+.row_2-1{
+    height: 230px;
+}
+.row a{
+    background-color: #8262b5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.featured .featured__title{
+    padding-left: 10px;
+    padding-top: 50px;
+}
+h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+.featured__title h2, h5 {
+padding-bottom: 15px;
+}
+.featured__line{
+    height: 2px;
+    width: 5rem;
+    background-color: #8262b5;
+}
+.featured h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+.featured h5{
+    font-family: "Montserrat", sans-serif;   
+    letter-spacing: 6px;
+    color: #8262b5
+}
+
+.row{
+    display: flex;
+}
+.item{
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.featured .container{
+   
+
+    max-width: 1140px;
+   margin: 0 auto;
+}
+.featured__overlay--text .featured_img{
+    position: absolute;
+}
+.featured_img{
+    z-index: 1;
+}
+.featured__overlay--text{
+    z-index: 2;
+}
+.featured__price h4{
+    text-decoration-line: line-through;
+    color: #999999;
+   
+}
+.featured__card--text h4 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+}
+.footer__bottom{
+    background-color: #222222;
+    height: 72px;
+}
+
+.footer__bottom p{
+    color: #888888;
+ padding-top: 27px;
+   
+}
